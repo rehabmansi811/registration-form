@@ -1,0 +1,85 @@
+<html>
+<header>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        table,tr,td,th {
+            border: 5px solid #24f967
+
+        }
+    </style>
+
+</header>
+
+<body>
+    <table border="5" width="600" cellspacing="5" cellpadding="5"  >
+        <form method="get" action="thanks.html">
+        <tr>
+            <th colspan="2"> Registration Form </th>
+        </tr>
+        <tr>
+            <td><label for="fname">First Name </label></td>
+            <td> <input id="fname" type="text" placeholder="first name" name="firstname" required maxlength="15" /></td>
+        </tr>
+        <tr>
+            <td><label for="Lname">Last Name </label></td>
+            <td> <input id="Lname" type="text" placeholder="last name" name="lastname" required maxlength="15" /></td>
+        </tr>
+        <tr>
+            <td><label for="uname">User Name </label></td>
+            <td> <input id="uname" type="text" placeholder="user name" name="username" required maxlength="30" /></td>
+        </tr>
+        <tr>
+            <td><label for="pass">Pass </label></td>
+            <td> <input id="pass" type="text" placeholder="password" name="pass" required maxlength="10" /></td>
+        </tr>
+        <tr>
+            <td><label>Track </label></td>
+            <td><select name="track">
+                    <option>web</option>
+                    <option>mobil</option>
+                    <option>IOT</option>
+                    <option>AI</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td rowspan="2"><label>Gender </label></td>
+            <td><input type="radio" name="gender" value="female" /><i>Female</i>
+            </td>
+
+        </tr>
+        <tr>
+            <td><input type="radio" name="gender" value="male" /><i>Male</i>
+            </td>
+
+        </tr>
+        <tr>
+            <td><label>Favorites </label></td>
+            <td><input type="checkbox" name="opt1" value="football" /><i>football</i>
+                <input type="checkbox" name="opt2" value="basketball" /><i>basketball</i>
+                <br/>
+                <input type="checkbox" name="opt3" value="games" /><i>games</i>
+                <br/>
+                <input type="checkbox" name="opt4" value="reading" /><i>reading</i>
+                <input type="checkbox" name="opt5" value="swimming" /><i>swimming</i>
+                <br/>
+                <input type="checkbox" name="opt6" value="trave" /><i>trave</i>
+            </td>
+        </tr>
+        <tr>
+            <td><label>description </label></td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <th colspan="2"> <input type="submit" value="submit"/>
+                <input type="reset" value="reset"/></th>
+        </tr> 
+        <tr>
+            <th colspan="2">
+                <input type="file" value="NO file chosen"/></th>
+        </tr> 
+
+    </form>
+    </table>
+</body>
+
+</html>
